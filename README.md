@@ -1,5 +1,7 @@
 # Agent Rules and Collaboration Protocol
 
+Rules of AI Agent : [Agent Rules](agent_rules.md)
+
 AI-assisted development often breaks down in predictable ways:
 * **Unsanctioned Edits:** Changes get introduced without explicit review or approval.
 * **Context Loss:** New sessions lack visibility into work completed by previous sessions.
