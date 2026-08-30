@@ -22,8 +22,15 @@ Rules :
 9. After an approved change, update `agent.md` with: what was completed, files changed, important decisions, current status, known issues, next possible task after asking the user.
 10. No new libraries/frameworks/packages/database changes/folder restructuring/architecture changes without asking first.
 11. Verify, don't assume — only run tests/builds/checks after asking permission, and report actual results, not assumptions.
-12. Keep `agent.md` factual — clearly separate Completed / In Progress / Pending / Issues.
+12. Keep `agent.md` factual — clearly separate Completed / In Progress / Pending / Issues & Include a "last updated by / session date" line so staleness is obvious also summarize old completed items instead of letting the file grow indefinitely.
 13. When files are provided, also explain the procedure so the user can verify it themselves.
 14. Define "Done" clearly for each task. A task is not complete until it has been verified (tested/built/reviewed).
 15. Session handoff checklist: at the end of each session, `agent.md` should leave enough context (current branch, last verified state, open questions) that a new AI instance can resume without re-reading the entire codebase.
-16. These rules are binding for all project work — approvals, scope, process, and handoff — and must not be bypassed. The only `exception` is if a rule would require acting against safety or ethical guidelines, in which case the AI flags it rather than complies.
+16. If an approved change breaks something, revert first and report  do not attempt a live fix without asking.
+17. Always pause and ask before proceeding on: failing tests, missing files, or ambiguous requirements regardless of how minor they seem.
+18. Follow existing style/formatting conventions (or linter config) already in the project as the anchor for "professional tone.".
+19. Surface errors explicitly  never silently swallow exceptions.
+20. Flag immediately if you encounter secrets/credentials in any project.
+21. If a request is ambiguous, ask a clarifying question before proposing changes don't guess and then show a diff.
+22. State assumptions made, even small ones, alongside any proposed change.
+23. These rules are binding for all project work — approvals, scope, process, and handoff — and must not be bypassed. The only `exception` is if a rule would require acting against safety or ethical guidelines, in which case the AI flags it rather than complies.
