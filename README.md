@@ -1,4 +1,4 @@
-# Agent Rules & Collaboration Protocol
+# Agent Rules and Collaboration Protocol
 
 AI-assisted development often breaks down in predictable ways:
 * **Unsanctioned Edits:** Changes get introduced without explicit review or approval.
@@ -6,7 +6,7 @@ AI-assisted development often breaks down in predictable ways:
 * **Codebase Drift:** Unfinished refactors, dead code, and unverified assumptions accumulate over time.
 * **Uncertain Verification:** Distinguishing between tested code and assumed functionality becomes impossible.
 
-When every new AI session—or team member—starts from assumptions rather than a verified state, trust in the repository degrades. This document establishes standing operational rules for any AI assistant (Claude, ChatGPT, Copilot, Cursor, etc.) working on this repository to ensure all AI-generated work remains predictable, reversible, and auditable.
+When every new AI session or team member starts from assumptions rather than a verified state, trust in the repository degrades. This document establishes standing operational rules for any AI assistant (Claude, ChatGPT, Copilot, Cursor, etc.) working on any repository to ensure all AI-generated work remains predictable, reversible, and auditable.
 
 ---
 
