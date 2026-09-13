@@ -2,6 +2,10 @@
 
 Rules of AI Agent : [Agent Rules](agent_rules.md)
 
+Operating Systems:
+* [Multi-Project Multi-Agent Workforce](MULTI-PROJECT%20mini%20agents%20workflow.md) — use when running **multiple independent projects** at once (each with its own isolated Manager and team, never merged).
+* [One Project Multi-Agent Workforce](One%20Project%20Multi-agent.md) — use when running **one large project** split into parallel workstreams (Managers sync with each other since they share one deliverable).
+
 AI-assisted development often breaks down in predictable ways:
 * **Unsanctioned Edits:** Changes get introduced without explicit review or approval.
 * **Context Loss:** New sessions lack visibility into work completed by previous sessions.
